@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/91554777/170103427-2b681a6e-05b6-49f3-834b-c188ebf12fbb.png)
 
-    <!DOCTYPE html>
+     <!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -23,7 +23,9 @@
            <P><strong>Confirma tu Contraseña</strong></P>
            <input type="password" id="password" name="Confirma tu Contraseña" minlength="4" maxlength="8">
 
-           <form>
+        </form>
+
+        <form>
             Genero: <br>
             <input type="radio" id="gender" name="gender" value="male"/>Masculino<br>
             <input type="radio" id="gender" name="gender" value="female"/>Femenino<br>

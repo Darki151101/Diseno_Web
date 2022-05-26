@@ -232,29 +232,24 @@ Preguntas:
   
 22.¿Qué atributo HTML especifica un texto alternativo para una imagen, si la imagen no se puede mostrar? (valor 0.24)
 
-        a) longdesc
-        b) src
+      
         c) alt
-        d) title
   
 23. ¿Qué tipo de documento es correcto para HTML5? (valor 0.24)
   
-        a) <!DOCTYPE html>
+
         b) <!DOCTYPE HTML5>
   
-c) <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5.0//EN\"\"http://www.w3.org/TR/html5/strict.dtd\">
+
   
 24.¿Qué elemento HTML se usa para especificar un pie de página para un documentoo sección? (valor 0.24)
   
-        a) bottom
-        b) footer
         c) section
   
 25. ¿Cuál es el elemento HTML correcto para reproducir archivos de video? (valor 0.24)
   
         a) video
-        b) media
-        c) movie
+        
   
 Realiza la maquetación del siguiente ejemplo de página: (se aplica la rúbrica de la maquetación en código html, valor 18)
   
@@ -271,3 +266,53 @@ extensión .html
 ● No es necesario que incluyas los estilos (CSS) para cada elemento en esta
 actividad pero sí todo el código HTML5 que da estructura a cada una de las
 secciones que se muestran en la imagen de arriba.
+
+![image](https://user-images.githubusercontent.com/99523872/170547222-9d36b93c-2fca-48d1-84b6-dc6ebe907984.png)
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Evalaución HTML</title>
+        </head>
+
+        <body>
+           <HEADER>
+        <h1> ENCABEZADO NIVEL 1 </h1>
+        <nav> 
+         <ul>
+          <li><a href="">ENLACE 1</a></li>
+          <li><a href="">ENLACE 2</a></li>
+          <li><a href="">ENLACE 3</a></li>
+          <li><a href="">ENLACE 4</a></li>
+         </ul> 
+        </nav>
+           </HEADER>
+
+           <Main>
+               <section>
+                   <h2>ENCABEZADO 2 </h2>
+                   <p> Aqui va texto primer párrafo </p>
+                   <p> Aqui va texto segundo párrafo </p>
+               </section>
+               <aside>
+                   <h2> Apartado </h2>
+                   <p> Elije una opcion </p>
+                   <form >
+                       <input type="radio" name="apartado" id="Opcion 1">
+                       <label for="Opcion 1">Opcion 1 </label> <br>
+                       <input type="radio" name="apartado" id="Opcion 2"> 
+                       <label for="Opcion 2">Opcion 2 </label> <br>
+                       <input type="radio" name="apartado" id="Opcion 3">
+                       <label for="Opcion 3">Opcion 3 </label> 
+                   </form>
+               </aside>
+           </Main>
+
+           <FOoter> 
+               <p><strong> Sección de información de contacto, derechos de autor, etc.</strong></p>
+           </FOoter>
+        </body>
+        </html>

@@ -1,3 +1,4 @@
+    <link rel="stylesheet" href="css/stilos.css">
     *{
         margin: 0;
         padding: 0;

@@ -205,15 +205,16 @@ https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/ass
           }
 
           main{
-             height: 50vh;
+              height: 60vh;
              width: 100%;
              background: url( https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg);
              background-repeat: no-repeat;
              background-position: center;
              display: flex;
              align-items: center;
-             justify-content: center;
-          }
+             justify-content: left;
+             background-size: cover;
+              }
           .caja{
               width: 50%;
               color: white;
